@@ -1,0 +1,83 @@
+* {
+	padding: 0;
+	margin: 0;}
+
+body {
+	background: url(../img/Portada.jpg) repeat-x top center;
+	font-family: arial, helvetica, sans-serif;
+	background-image: url(../img/Mapa del merodeador.jpg);
+}
+
+#contenedor {
+	width: 1080px;
+	height: 550px;
+	margin: 0 auto;
+}
+
+ 
+#cabecera {
+	position: relative;
+	padding-top: 15px;
+
+}
+
+#menu {
+	width: 75%;
+	float: left;
+	text-align: left;
+	padding-top: 13px;
+	padding-right: 15px;
+}
+
+#menu ul {
+	list-style-type: none;
+}
+#menu ul li {
+	display: inline-block;
+}
+#menu ul li a {
+	text-decoration: none;
+	color: white;
+	padding: 10px 20px;
+	font-size: 14px
+}
+ #menu ul li a:hover, #menu ul li a.activo:hover {
+ 	border-bottom: 2px solid white;
+ }
+
+ /* Estilos de la pagina 2 */
+
+  #principal, #footer {
+  	padding: 20px 0;
+  }
+
+
+  #principal h1 {
+  	margin-bottom: 10px;
+  }
+
+  #principal p {
+  	font-size: 17px;
+  	letter-spacing: 1.5px;
+  	line-height: 1.5;
+  }
+
+  #footer {
+  	color: white;
+  	background: black;
+  	text-align: center;
+  	position: relative;
+  }
+
+  #conteneedor {
+	width: 1450px;
+	height: 230px;
+	margin: 200px;
+	border: 1px solid white;}
+
+#footer img {
+	position: relative;
+	right: 5px;
+	top: 50%;
+	margin-top:-25px;
+}

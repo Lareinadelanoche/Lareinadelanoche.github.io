@@ -1,0 +1,92 @@
+* {
+	padding: 0;
+	margin: 0;}
+
+body {
+	background: url(../img/Portada.jpg) no-repeat top center;
+	font-family: arial, helvetica, sans-serif;
+	background-color: #c56b0b;
+}
+
+#contenedor {
+	width: 1080px;
+	height: 550px;
+	margin: 0 auto;
+}
+
+#cabecera {
+	position: relative;
+	padding-top: 15px;
+
+}
+
+#menu {
+	width: 75%;
+	float: left;
+	text-align: left;
+	padding-top: 13px;
+	padding-right: 15px;
+}
+
+#menu ul {
+	list-style-type: none;
+}
+#menu ul li {
+	display: inline-block;
+}
+#menu ul li a {
+	text-decoration: none;
+	color: white;
+	padding: 10px 20px;
+	font-size: 14px
+}
+ #menu ul li a:hover, #menu ul li a.activo:hover {
+ 	border-bottom: 2px solid white;
+ }
+
+ #conteneedor {
+	width: 1450px;
+	height: 190px;
+	margin: 200px;
+	border: 1px solid white;}
+
+/* Estilos del index */
+
+h6{
+	font-style: italic;
+}
+h1 {
+	text-align: center;
+	text-transform: capitalize;
+	font-weight: bold;
+}
+
+#galeria {
+	padding: 15px;
+	margin: 0 auto;
+}
+
+#galeria img {
+	margin: 5px;
+	padding: 10px;
+}
+
+#principal, #footer {
+  	padding: 20px 0;
+ }
+
+#footer {
+	padding: 20px;
+  	color: white;
+  	background-color: black;
+  	text-align: center;
+  	position: relative;
+  }
+
+  #footer img {
+	position: absolute;
+	right: 5px;
+	top: 50%;
+	margin-top:-25px;
+}
+

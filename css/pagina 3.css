@@ -1,0 +1,99 @@
+* {
+	padding: 0;
+	margin: 0;
+}
+
+body {
+	background: url(../img/Portada.jpg) no-repeat top center;
+	font-family: arial, helvetica, sans-serif;
+	background-color: #c56b0b;
+}
+
+#contenedor {
+	width: 1080px;
+	margin: 0 auto;
+}
+ 
+#cabecera {
+	position: relative;
+	padding-top: 15px;
+	height: 545px;
+
+}
+
+#menu {
+	width: 50%;
+	float: left;
+	text-align: left;
+	padding-top: 13px;
+	padding-right: 15px;
+}
+
+#menu ul {
+	list-style-type: none;
+}
+#menu ul li {
+	display: inline-block;
+}
+#menu ul li a {
+	text-decoration: none;
+	color: white;
+	padding: 10px 20px;
+	font-size: 14px
+}
+ #menu ul li a:hover, #menu ul li a.activo:hover {
+ 	border-bottom: 2px solid white;
+ }
+
+ /* Estilos de la pagina 2 */
+
+
+  #principal, #footer {
+  	padding: 20px 0;
+  }
+
+  #principal iframe {
+  	width: 50%;
+  	float: right;
+  	margin-left: 20px;
+  	margin-bottom: 20px;
+  }
+
+  #principal iframe.primera {
+  	width: 50%;
+  	float: left;
+  	margin-right: 20px;
+  	margin-bottom: 10px;
+
+  }
+
+  #principal h1 {
+  	margin-bottom: 10px;
+  }
+
+  #principal p {
+  	font-size: 17px;
+  	letter-spacing: 1.5px;
+  	line-height: 1.5;
+  }
+
+  #footer {
+  	color: white;
+  	background: black;
+  	text-align: center;
+  	position: relative;
+  	clear: both;
+  }
+
+#footer img {
+	position: absolute;
+	right: 5px;
+	top: 50%;
+	margin-top:-25px;
+}
+
+#principal {
+    padding: 20px 0;
+}
+
+
